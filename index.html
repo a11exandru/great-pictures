@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="ie=edge"><meta name="description" content="This is made using pure HTM5, CSS3 and JavaScript techniques."><title>Great Pictures</title><link rel="stylesheet" href="style.css"></head><body><div class="side-nav" id="side-nav"><a class="side-nav__close" href="javascript:void(0)" onclick="closeNav()">&times;</a><p class="side-nav__text">Pictures</p><a class="side-nav__link" href="/nature">Nature</a><a class="side-nav__link" href="/animals">Animals</a><a class="side-nav__link" href="/forest">Forest</a><p class="side-nav__text">Contact</p><a class="side-nav__link" href="/contact">Contact</a></div><span class="side-nav__open" onclick="openNav()">open</span><script>function openNav() {
+    document.getElementById("side-nav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("side-nav").style.width = "0px";
+}
+
+function openNav() {
+    document.getElementById("side-nav").style.width = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.6)";
+}
+
+function closeNav() {
+    document.getElementById("side-nav").style.width = "0";
+    document.body.style.backgroundColor = "white";
+}</script></body></html>
