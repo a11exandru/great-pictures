@@ -1,0 +1,12 @@
+#side-nav(class=`side-nav`)
+        a.side-nav__close(href="javascript:void(0)", onclick="closeNav()") &times;
+        p.side-nav__text Pictures
+        a.side-nav__link(href="/nature") Nature
+        a.side-nav__link(href="/animals") Animals
+        a.side-nav__link(href="/forest") Forest
+        p.side-nav__text Contact
+        a.side-nav__link(href="/contact") Contact
+
+span.side-nav__open(onclick="openNav()") open
+script
+    include side-navigation.js
