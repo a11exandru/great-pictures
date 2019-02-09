@@ -8,7 +8,7 @@ function closeNav() {
 
 function openNav() {
     document.getElementById("side-nav").style.width = "250px";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.6)";
 }
 
 function closeNav() {
