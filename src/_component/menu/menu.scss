@@ -1,0 +1,37 @@
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.menu__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    background-color: $color-black;
+    cursor: pointer;
+}
+
+.menu__icon {
+    color: $color-white;
+    font-size: 1.5rem;
+
+    &:hover {
+        color: $color-gray;
+    }
+}
+
+.menu__text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    a {
+        color: $color-white;
+        font-size: 1.5rem;
+        text-decoration: none;
+        padding-right: 0.3rem;
+
+        &:hover {
+            color: $color-gray;
+        }
+    }
+}
