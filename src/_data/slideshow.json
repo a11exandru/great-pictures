@@ -1,0 +1,24 @@
+{
+    "slideshow": [
+        {
+        "numberText": "1 / 6",
+        "image": "asset/image/slideshow/img_1.jpg",
+        "text": "The Woods"
+    },
+    {
+        "numberText": "2 / 6",
+        "image": "asset/image/slideshow/img_2.jpg",
+        "text": "Cinque Terre"
+    }
+    ],
+
+    "column": [
+        {
+            "src": "asset/image/slideshow/img_1.jpg",
+            "alt": "The Woods",
+            "currentSlide": "currentSlide(1)",
+            "style":"width:100%",
+            "class":"demo cursor"
+        }
+    ]
+}

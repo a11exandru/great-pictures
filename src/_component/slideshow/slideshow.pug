@@ -1,0 +1,25 @@
+.container
+    each slide in data.slideshow.slideshow
+        .slides
+            .number__text=slide.numberText
+                img.sides__image(src=slide.image, style="widht:100%")
+
+    a.slide__prev(onclick="plusSlide(-1)") &#10094;
+    a.slide__next(onclick="plusSlide(1)") &#10095;
+
+    .container__text
+        p(id="text")
+
+    .row
+        each thumbnail in data.slideshow.column
+            .column
+                img(
+                    src=thumbnail.src,
+                    alt=thumbnail.alt,
+                    onlick=thumbnail.currentSlide,
+                    style=thumbnail.style,
+                    class=thumbnail.class
+                )
+
+script
+    include slideshow.js
