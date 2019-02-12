@@ -1,5 +1,8 @@
 doctype html
 html(lang="en")
+    -
+        //- var baseUrl = "localhost:/3000"
+        var baseUrl = "https://a11exandru.github.io/great-pictures"
     head
         block config
         meta(charset="UTF-8")
@@ -7,6 +10,6 @@ html(lang="en")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         meta(name="description", content=description)
         title=title
-        link(rel="stylesheet", href="/style.css")
+        link(rel="stylesheet", href=`${baseUrl}/style.css`)
     body
         block content
