@@ -1,0 +1,17 @@
+.slideshow-container
+    each slideshow in data.slideshow.slideshow
+        div(class="mySlides fade")
+            .slideshow__number-text=slideshow.number
+            img.slideshow__image(src=slideshow.image, alt=slideshow.text, width="100%")
+            .slideshow__text=slideshow.text
+    a.slideshow__prev(onclick="plusSlides(-1)") &#10094;
+    a.slideshow__next(onclick="plusSlides(1)") &#10095;
+
+div(style="text-align:center")
+    span.dot(onclick="currentSlide(1)")
+    span.dot(onclick="currentSlide(2)")
+    span.dot(onclick="currentSlide(3)")
+    span.dot(onclick="currentSlide(4)")
+
+script
+    include slideshow.js

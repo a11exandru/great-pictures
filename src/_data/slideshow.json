@@ -1,0 +1,24 @@
+{
+    "slideshow" : [
+        {
+            "number": "1/4",
+            "image": "asset/image/be-different.jpg",
+            "text": "be different"
+        },
+        {
+            "number": "2/4",
+            "image": "asset/image/animals.jpg",
+            "text": "animals"
+        },
+        {
+            "number": "3/4",
+            "image": "asset/image/forest.jpg",
+            "text": "forest"
+        },
+        {
+            "number": "4/4",
+            "image": "asset/image/nature.jpg",
+            "text": "nature"
+        }
+    ]
+}
